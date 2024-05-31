@@ -1,0 +1,51 @@
+/* CustomCheckbox.css */
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Add margin between each choice */
+}
+
+.custom-checkbox input {
+    margin-right: 10px; /* Add space between checkbox and choice text */
+}
+
+.checkmark {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+}
+
+/* Style for the checked checkbox */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style for the checkmark box */
+.checkmark-box {
+    width: 100%;
+    height: 100%;
+    background-color: #2196F3; /* Change color for checked checkbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark-box::after {
+    content: "";
+    display: none;
+}

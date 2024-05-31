@@ -1,0 +1,30 @@
+.cart-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-item {
+
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .quantity {
+    font-weight: bold;
+  }
+  
+  .price {
+    color: green;
+  }
+  
+  @media (max-width: 768px) {
+    .cart-item {
+      padding: 5px;
+    }
+  }
+  

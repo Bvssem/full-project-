@@ -1,0 +1,48 @@
+/* UserGrades.css */
+
+.grades-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .grades-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .grade-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .grade-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .assignment-title {
+    flex: 2;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .grade-score {
+    flex: 1;
+    text-align: right;
+    color: #777;
+  }
+  

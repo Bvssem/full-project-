@@ -1,0 +1,40 @@
+.event-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .event-details {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .event-title {
+    margin-top: 0;
+  }
+  
+  .details p {
+    margin: 10px 0;
+  }
+  
+  .join-meeting-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .join-meeting-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
